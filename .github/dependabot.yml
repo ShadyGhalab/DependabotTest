@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "15:19"  # 4:00 PM in Taiwan / 10:00 AM in Central Europe
+      time: "15:25"  # 4:00 PM in Taiwan / 10:00 AM in Central Europe
       timezone: "UTC"
     allow:
       - dependency-type: "all"
