@@ -5,8 +5,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "15:45"  # 4:25 PM Taiwan / 10:25 AM Central Europe
-      timezone: "UTC"
+      time: "17:50"  # 4:25 PM Taiwan / 10:25 AM Central Europe
+      timezone: "Europe/Berlin"
     allow:
       - dependency-type: "all"
     ignore:
@@ -28,7 +28,7 @@ updates:
     security-updates-only: false
     insecure-external-code-execution: "deny"
     labels: ["dependencies", "swift"]
-    assignees: ["@shady.mostafa"]
+    assignees: ["@shadyghalab"]
     reviewers: ["@mobile-team"]
     milestone: 1
     commit-message:
