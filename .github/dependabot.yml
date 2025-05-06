@@ -2,7 +2,7 @@ version: 2
 updates:
   # Daily updates (non-security)
   - package-ecosystem: "swift"
-    directory: "/"
+    directory: "/DependabotTest"
     schedule:
       interval: "daily"
       time: "18:45"
