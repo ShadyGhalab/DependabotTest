@@ -1,11 +1,11 @@
 version: 2
 updates:
-  # Daily updates (excluding security-only updates)
+  # Daily updates (non-security)
   - package-ecosystem: "swift"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "18:40"
+      time: "18:28"
       timezone: "Europe/Berlin"
     allow:
       - dependency-type: "all"
@@ -37,16 +37,9 @@ updates:
       separator: "-"
     target-branch: "develop"
 
-  # Monthly security-only updates
+  # Monthly security-only updates (must be minimal)
   - package-ecosystem: "swift"
     directory: "/"
     schedule:
       interval: "monthly"
     security-updates-only: true
-    allow:
-      - dependency-type: "all"
-    ignore:
-      - dependency-name: "firebase-ios-sdk"
-      - dependency-name: "facebook-ios-sdk"
-      - dependency-name: "fullstory-swift-package-ios"
-      - dependency-name: "Instabug-SP"
