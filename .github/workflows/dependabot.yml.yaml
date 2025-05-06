@@ -3,9 +3,8 @@ updates:
   - package-ecosystem: "swift"
     directory: "/"
     schedule:
-      interval: "monthly"
-      day: "daily"
-      time: "15:05"  # 4:00 PM in Taiwan / 10:00 AM in Central Europe
+      interval: "daily"
+      time: "15:10"  # 4:00 PM in Taiwan / 10:00 AM in Central Europe
       timezone: "UTC"
     allow:
       - dependency-type: "all"
