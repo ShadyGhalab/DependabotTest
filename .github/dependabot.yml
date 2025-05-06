@@ -5,7 +5,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "18:28"  # 4:25 PM Taiwan / 10:25 AM Central Europe
+      time: "18:40"
       timezone: "Europe/Berlin"
     allow:
       - dependency-type: "all"
@@ -25,7 +25,6 @@ updates:
         applies-to: "version-updates"
     open-pull-requests-limit: 200
     rebase-strategy: "auto"
-    security-updates-only: false
     insecure-external-code-execution: "deny"
     labels: ["dependencies", "swift"]
     assignees: ["@shadyghalab"]
