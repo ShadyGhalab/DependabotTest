@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FED7E5452DCA50EC00B2CF86 /* Action in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5442DCA50EC00B2CF86 /* Action */; };
-		FED7E5482DCA510200B2CF86 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5472DCA510200B2CF86 /* AppsFlyerLib */; };
 		FED7E54B2DCA511C00B2CF86 /* Composed in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E54A2DCA511C00B2CF86 /* Composed */; };
 		FED7E54E2DCA513100B2CF86 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E54D2DCA513100B2CF86 /* Crypto */; };
 		FED7E5512DCA514500B2CF86 /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5502DCA514500B2CF86 /* DifferenceKit */; };
@@ -103,12 +101,10 @@
 				FED7E5542DCA517100B2CF86 /* FacebookAEM in Frameworks */,
 				FED7E5712DCA523200B2CF86 /* Lottie in Frameworks */,
 				FED7E58C2DCA59CC00B2CF86 /* SwiftMessages in Frameworks */,
-				FED7E5452DCA50EC00B2CF86 /* Action in Frameworks */,
 				FED7E5682DCA51EC00B2CF86 /* KeyboardGuide in Frameworks */,
 				FED7E5742DCA524900B2CF86 /* Persist in Frameworks */,
 				FED7E57F2DCA592C00B2CF86 /* RxSwift in Frameworks */,
 				FED7E5852DCA597E00B2CF86 /* Algorithms in Frameworks */,
-				FED7E5482DCA510200B2CF86 /* AppsFlyerLib in Frameworks */,
 				FED7E55F2DCA51A100B2CF86 /* FirebaseAnalytics in Frameworks */,
 				FED7E54B2DCA511C00B2CF86 /* Composed in Frameworks */,
 				FED7E5512DCA514500B2CF86 /* DifferenceKit in Frameworks */,
@@ -180,8 +176,6 @@
 			);
 			name = DependabotTest;
 			packageProductDependencies = (
-				FED7E5442DCA50EC00B2CF86 /* Action */,
-				FED7E5472DCA510200B2CF86 /* AppsFlyerLib */,
 				FED7E54A2DCA511C00B2CF86 /* Composed */,
 				FED7E54D2DCA513100B2CF86 /* Crypto */,
 				FED7E5502DCA514500B2CF86 /* DifferenceKit */,
@@ -290,8 +284,6 @@
 			mainGroup = FED7E5062DCA50BA00B2CF86;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FED7E5432DCA50EC00B2CF86 /* XCRemoteSwiftPackageReference "Action" */,
-				FED7E5462DCA510200B2CF86 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
 				FED7E5492DCA511C00B2CF86 /* XCRemoteSwiftPackageReference "Composed" */,
 				FED7E54C2DCA513100B2CF86 /* XCRemoteSwiftPackageReference "Crypto" */,
 				FED7E54F2DCA514500B2CF86 /* XCRemoteSwiftPackageReference "DifferenceKit" */,
@@ -676,22 +668,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FED7E5432DCA50EC00B2CF86 /* XCRemoteSwiftPackageReference "Action" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/RxSwiftCommunity/Action.git";
-			requirement = {
-				kind = exactVersion;
-				version = 4.3.0;
-			};
-		};
-		FED7E5462DCA510200B2CF86 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git";
-			requirement = {
-				kind = exactVersion;
-				version = 6.14.2;
-			};
-		};
 		FED7E5492DCA511C00B2CF86 /* XCRemoteSwiftPackageReference "Composed" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/opennetltd/Composed.git";
@@ -855,16 +831,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FED7E5442DCA50EC00B2CF86 /* Action */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FED7E5432DCA50EC00B2CF86 /* XCRemoteSwiftPackageReference "Action" */;
-			productName = Action;
-		};
-		FED7E5472DCA510200B2CF86 /* AppsFlyerLib */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FED7E5462DCA510200B2CF86 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
-			productName = AppsFlyerLib;
-		};
 		FED7E54A2DCA511C00B2CF86 /* Composed */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FED7E5492DCA511C00B2CF86 /* XCRemoteSwiftPackageReference "Composed" */;
