@@ -23,7 +23,7 @@ updates:
           - "fullstory-*"
           - "Instabug-SP"
         applies-to: "version-updates"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 200
     rebase-strategy: "auto"
     security-updates-only: false
     insecure-external-code-execution: "deny"
