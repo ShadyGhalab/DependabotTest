@@ -1,10 +1,11 @@
 version: 2
 updates:
+  # Daily updates (excluding security-only updates)
   - package-ecosystem: "swift"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "15:25"  # 4:00 PM in Taiwan / 10:00 AM in Central Europe
+      time: "15:45"  # 4:25 PM Taiwan / 10:25 AM Central Europe
       timezone: "UTC"
     allow:
       - dependency-type: "all"
@@ -15,8 +16,7 @@ updates:
       - dependency-name: "Instabug-SP"
     groups:
       ios-dependencies:
-        patterns:
-          - "*"
+        patterns: ["*"]
         exclude-patterns:
           - "firebase-*"
           - "facebook-*"
@@ -27,13 +27,9 @@ updates:
     rebase-strategy: "auto"
     security-updates-only: false
     insecure-external-code-execution: "deny"
-    labels:
-      - "dependencies"
-      - "swift"
-    assignees:
-      - "@shady.mostafa"
-    reviewers:
-      - "@mobile-team"
+    labels: ["dependencies", "swift"]
+    assignees: ["@shady.mostafa"]
+    reviewers: ["@mobile-team"]
     milestone: 1
     commit-message:
       prefix: "chore"
@@ -42,6 +38,7 @@ updates:
       separator: "-"
     target-branch: "develop"
 
+  # Monthly security-only updates
   - package-ecosystem: "swift"
     directory: "/"
     schedule:
