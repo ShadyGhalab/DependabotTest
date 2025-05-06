@@ -6,6 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FED7E5452DCA50EC00B2CF86 /* Action in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5442DCA50EC00B2CF86 /* Action */; };
+		FED7E5482DCA510200B2CF86 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5472DCA510200B2CF86 /* AppsFlyerLib */; };
+		FED7E54B2DCA511C00B2CF86 /* Composed in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E54A2DCA511C00B2CF86 /* Composed */; };
+		FED7E54E2DCA513100B2CF86 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E54D2DCA513100B2CF86 /* Crypto */; };
+		FED7E5512DCA514500B2CF86 /* DifferenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5502DCA514500B2CF86 /* DifferenceKit */; };
+		FED7E5542DCA517100B2CF86 /* FacebookAEM in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5532DCA517100B2CF86 /* FacebookAEM */; };
+		FED7E5562DCA517100B2CF86 /* FacebookBasics in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5552DCA517100B2CF86 /* FacebookBasics */; };
+		FED7E5582DCA517100B2CF86 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5572DCA517100B2CF86 /* FacebookCore */; };
+		FED7E55A2DCA517100B2CF86 /* FacebookGamingServices in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5592DCA517100B2CF86 /* FacebookGamingServices */; };
+		FED7E55C2DCA517100B2CF86 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E55B2DCA517100B2CF86 /* FacebookLogin */; };
+		FED7E55F2DCA51A100B2CF86 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E55E2DCA51A100B2CF86 /* FirebaseAnalytics */; };
+		FED7E5622DCA51B600B2CF86 /* FullStory in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5612DCA51B600B2CF86 /* FullStory */; };
+		FED7E5652DCA51D200B2CF86 /* Instabug in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5642DCA51D200B2CF86 /* Instabug */; };
+		FED7E5682DCA51EC00B2CF86 /* KeyboardGuide in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5672DCA51EC00B2CF86 /* KeyboardGuide */; };
+		FED7E56B2DCA520400B2CF86 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E56A2DCA520400B2CF86 /* KeychainAccess */; };
+		FED7E56E2DCA521900B2CF86 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E56D2DCA521900B2CF86 /* Kingfisher */; };
+		FED7E5712DCA523200B2CF86 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5702DCA523200B2CF86 /* Lottie */; };
+		FED7E5742DCA524900B2CF86 /* Persist in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5732DCA524900B2CF86 /* Persist */; };
+		FED7E5772DCA58C900B2CF86 /* RecaptchaEnterprise in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5762DCA58C900B2CF86 /* RecaptchaEnterprise */; };
+		FED7E57A2DCA591400B2CF86 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5792DCA591400B2CF86 /* Differentiator */; };
+		FED7E57C2DCA591400B2CF86 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E57B2DCA591400B2CF86 /* RxDataSources */; };
+		FED7E57F2DCA592C00B2CF86 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E57E2DCA592C00B2CF86 /* RxSwift */; };
+		FED7E5822DCA594300B2CF86 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5812DCA594300B2CF86 /* SnapKit */; };
+		FED7E5852DCA597E00B2CF86 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5842DCA597E00B2CF86 /* Algorithms */; };
+		FED7E5882DCA599A00B2CF86 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E5872DCA599A00B2CF86 /* Collections */; };
+		FED7E58C2DCA59CC00B2CF86 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = FED7E58B2DCA59CC00B2CF86 /* SwiftMessages */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FED7E5262DCA50BB00B2CF86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED7E5652DCA51D200B2CF86 /* Instabug in Frameworks */,
+				FED7E55C2DCA517100B2CF86 /* FacebookLogin in Frameworks */,
+				FED7E55A2DCA517100B2CF86 /* FacebookGamingServices in Frameworks */,
+				FED7E5562DCA517100B2CF86 /* FacebookBasics in Frameworks */,
+				FED7E56E2DCA521900B2CF86 /* Kingfisher in Frameworks */,
+				FED7E5822DCA594300B2CF86 /* SnapKit in Frameworks */,
+				FED7E5542DCA517100B2CF86 /* FacebookAEM in Frameworks */,
+				FED7E5712DCA523200B2CF86 /* Lottie in Frameworks */,
+				FED7E58C2DCA59CC00B2CF86 /* SwiftMessages in Frameworks */,
+				FED7E5452DCA50EC00B2CF86 /* Action in Frameworks */,
+				FED7E5682DCA51EC00B2CF86 /* KeyboardGuide in Frameworks */,
+				FED7E5742DCA524900B2CF86 /* Persist in Frameworks */,
+				FED7E57F2DCA592C00B2CF86 /* RxSwift in Frameworks */,
+				FED7E5852DCA597E00B2CF86 /* Algorithms in Frameworks */,
+				FED7E5482DCA510200B2CF86 /* AppsFlyerLib in Frameworks */,
+				FED7E55F2DCA51A100B2CF86 /* FirebaseAnalytics in Frameworks */,
+				FED7E54B2DCA511C00B2CF86 /* Composed in Frameworks */,
+				FED7E5512DCA514500B2CF86 /* DifferenceKit in Frameworks */,
+				FED7E5772DCA58C900B2CF86 /* RecaptchaEnterprise in Frameworks */,
+				FED7E5622DCA51B600B2CF86 /* FullStory in Frameworks */,
+				FED7E57A2DCA591400B2CF86 /* Differentiator in Frameworks */,
+				FED7E54E2DCA513100B2CF86 /* Crypto in Frameworks */,
+				FED7E57C2DCA591400B2CF86 /* RxDataSources in Frameworks */,
+				FED7E5882DCA599A00B2CF86 /* Collections in Frameworks */,
+				FED7E5582DCA517100B2CF86 /* FacebookCore in Frameworks */,
+				FED7E56B2DCA520400B2CF86 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +180,32 @@
 			);
 			name = DependabotTest;
 			packageProductDependencies = (
+				FED7E5442DCA50EC00B2CF86 /* Action */,
+				FED7E5472DCA510200B2CF86 /* AppsFlyerLib */,
+				FED7E54A2DCA511C00B2CF86 /* Composed */,
+				FED7E54D2DCA513100B2CF86 /* Crypto */,
+				FED7E5502DCA514500B2CF86 /* DifferenceKit */,
+				FED7E5532DCA517100B2CF86 /* FacebookAEM */,
+				FED7E5552DCA517100B2CF86 /* FacebookBasics */,
+				FED7E5572DCA517100B2CF86 /* FacebookCore */,
+				FED7E5592DCA517100B2CF86 /* FacebookGamingServices */,
+				FED7E55B2DCA517100B2CF86 /* FacebookLogin */,
+				FED7E55E2DCA51A100B2CF86 /* FirebaseAnalytics */,
+				FED7E5612DCA51B600B2CF86 /* FullStory */,
+				FED7E5642DCA51D200B2CF86 /* Instabug */,
+				FED7E5672DCA51EC00B2CF86 /* KeyboardGuide */,
+				FED7E56A2DCA520400B2CF86 /* KeychainAccess */,
+				FED7E56D2DCA521900B2CF86 /* Kingfisher */,
+				FED7E5702DCA523200B2CF86 /* Lottie */,
+				FED7E5732DCA524900B2CF86 /* Persist */,
+				FED7E5762DCA58C900B2CF86 /* RecaptchaEnterprise */,
+				FED7E5792DCA591400B2CF86 /* Differentiator */,
+				FED7E57B2DCA591400B2CF86 /* RxDataSources */,
+				FED7E57E2DCA592C00B2CF86 /* RxSwift */,
+				FED7E5812DCA594300B2CF86 /* SnapKit */,
+				FED7E5842DCA597E00B2CF86 /* Algorithms */,
+				FED7E5872DCA599A00B2CF86 /* Collections */,
+				FED7E58B2DCA59CC00B2CF86 /* SwiftMessages */,
 			);
 			productName = DependabotTest;
 			productReference = FED7E50F2DCA50BA00B2CF86 /* DependabotTest.app */;
@@ -208,6 +289,30 @@
 			);
 			mainGroup = FED7E5062DCA50BA00B2CF86;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FED7E5432DCA50EC00B2CF86 /* XCRemoteSwiftPackageReference "Action" */,
+				FED7E5462DCA510200B2CF86 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				FED7E5492DCA511C00B2CF86 /* XCRemoteSwiftPackageReference "Composed" */,
+				FED7E54C2DCA513100B2CF86 /* XCRemoteSwiftPackageReference "Crypto" */,
+				FED7E54F2DCA514500B2CF86 /* XCRemoteSwiftPackageReference "DifferenceKit" */,
+				FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				FED7E55D2DCA51A100B2CF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FED7E5602DCA51B600B2CF86 /* XCRemoteSwiftPackageReference "fullstory-swift-package-ios" */,
+				FED7E5632DCA51D200B2CF86 /* XCRemoteSwiftPackageReference "Instabug-SP" */,
+				FED7E5662DCA51EC00B2CF86 /* XCRemoteSwiftPackageReference "KeyboardGuide" */,
+				FED7E5692DCA520400B2CF86 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				FED7E56C2DCA521900B2CF86 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FED7E56F2DCA523200B2CF86 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				FED7E5722DCA524900B2CF86 /* XCRemoteSwiftPackageReference "Persist" */,
+				FED7E5752DCA58C900B2CF86 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */,
+				FED7E5782DCA591400B2CF86 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				FED7E57D2DCA592C00B2CF86 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FED7E5802DCA594300B2CF86 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FED7E5832DCA597E00B2CF86 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				FED7E5862DCA599A00B2CF86 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				FED7E5892DCA59B500B2CF86 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				FED7E58A2DCA59CC00B2CF86 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FED7E5102DCA50BA00B2CF86 /* Products */;
 			projectDirPath = "";
@@ -569,6 +674,318 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FED7E5432DCA50EC00B2CF86 /* XCRemoteSwiftPackageReference "Action" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/Action.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.3.0;
+			};
+		};
+		FED7E5462DCA510200B2CF86 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.14.2;
+			};
+		};
+		FED7E5492DCA511C00B2CF86 /* XCRemoteSwiftPackageReference "Composed" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/opennetltd/Composed.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		FED7E54C2DCA513100B2CF86 /* XCRemoteSwiftPackageReference "Crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:opennetltd/Crypto.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.0;
+			};
+		};
+		FED7E54F2DCA514500B2CF86 /* XCRemoteSwiftPackageReference "DifferenceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ra1028/DifferenceKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+		FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 17.3.0;
+			};
+		};
+		FED7E55D2DCA51A100B2CF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.29.0;
+			};
+		};
+		FED7E5602DCA51B600B2CF86 /* XCRemoteSwiftPackageReference "fullstory-swift-package-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fullstorydev/fullstory-swift-package-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.56.1;
+			};
+		};
+		FED7E5632DCA51D200B2CF86 /* XCRemoteSwiftPackageReference "Instabug-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Instabug/Instabug-SP";
+			requirement = {
+				kind = exactVersion;
+				version = 14.3.0;
+			};
+		};
+		FED7E5662DCA51EC00B2CF86 /* XCRemoteSwiftPackageReference "KeyboardGuide" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/niw/KeyboardGuide.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.2.1;
+			};
+		};
+		FED7E5692DCA520400B2CF86 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.2.2;
+			};
+		};
+		FED7E56C2DCA521900B2CF86 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 7.10.2;
+			};
+		};
+		FED7E56F2DCA523200B2CF86 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.4.0;
+			};
+		};
+		FED7E5722DCA524900B2CF86 /* XCRemoteSwiftPackageReference "Persist" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JosephDuffy/Persist.git";
+			requirement = {
+				kind = exactVersion;
+				version = "1.3.0-beta.3";
+			};
+		};
+		FED7E5752DCA58C900B2CF86 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GoogleCloudPlatform/recaptcha-enterprise-mobile-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 18.5.1;
+			};
+		};
+		FED7E5782DCA591400B2CF86 /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.2;
+			};
+		};
+		FED7E57D2DCA592C00B2CF86 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.2.0;
+			};
+		};
+		FED7E5802DCA594300B2CF86 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.0;
+			};
+		};
+		FED7E5832DCA597E00B2CF86 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.2.0;
+			};
+		};
+		FED7E5862DCA599A00B2CF86 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.7;
+			};
+		};
+		FED7E5892DCA59B500B2CF86 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = exactVersion;
+				version = 1.18.1;
+			};
+		};
+		FED7E58A2DCA59CC00B2CF86 /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FED7E5442DCA50EC00B2CF86 /* Action */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5432DCA50EC00B2CF86 /* XCRemoteSwiftPackageReference "Action" */;
+			productName = Action;
+		};
+		FED7E5472DCA510200B2CF86 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5462DCA510200B2CF86 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		FED7E54A2DCA511C00B2CF86 /* Composed */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5492DCA511C00B2CF86 /* XCRemoteSwiftPackageReference "Composed" */;
+			productName = Composed;
+		};
+		FED7E54D2DCA513100B2CF86 /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E54C2DCA513100B2CF86 /* XCRemoteSwiftPackageReference "Crypto" */;
+			productName = Crypto;
+		};
+		FED7E5502DCA514500B2CF86 /* DifferenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E54F2DCA514500B2CF86 /* XCRemoteSwiftPackageReference "DifferenceKit" */;
+			productName = DifferenceKit;
+		};
+		FED7E5532DCA517100B2CF86 /* FacebookAEM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookAEM;
+		};
+		FED7E5552DCA517100B2CF86 /* FacebookBasics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookBasics;
+		};
+		FED7E5572DCA517100B2CF86 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		FED7E5592DCA517100B2CF86 /* FacebookGamingServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookGamingServices;
+		};
+		FED7E55B2DCA517100B2CF86 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5522DCA517100B2CF86 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		FED7E55E2DCA51A100B2CF86 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E55D2DCA51A100B2CF86 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FED7E5612DCA51B600B2CF86 /* FullStory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5602DCA51B600B2CF86 /* XCRemoteSwiftPackageReference "fullstory-swift-package-ios" */;
+			productName = FullStory;
+		};
+		FED7E5642DCA51D200B2CF86 /* Instabug */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5632DCA51D200B2CF86 /* XCRemoteSwiftPackageReference "Instabug-SP" */;
+			productName = Instabug;
+		};
+		FED7E5672DCA51EC00B2CF86 /* KeyboardGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5662DCA51EC00B2CF86 /* XCRemoteSwiftPackageReference "KeyboardGuide" */;
+			productName = KeyboardGuide;
+		};
+		FED7E56A2DCA520400B2CF86 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5692DCA520400B2CF86 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		FED7E56D2DCA521900B2CF86 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E56C2DCA521900B2CF86 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FED7E5702DCA523200B2CF86 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E56F2DCA523200B2CF86 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		FED7E5732DCA524900B2CF86 /* Persist */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5722DCA524900B2CF86 /* XCRemoteSwiftPackageReference "Persist" */;
+			productName = Persist;
+		};
+		FED7E5762DCA58C900B2CF86 /* RecaptchaEnterprise */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5752DCA58C900B2CF86 /* XCRemoteSwiftPackageReference "recaptcha-enterprise-mobile-sdk" */;
+			productName = RecaptchaEnterprise;
+		};
+		FED7E5792DCA591400B2CF86 /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5782DCA591400B2CF86 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		FED7E57B2DCA591400B2CF86 /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5782DCA591400B2CF86 /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+		FED7E57E2DCA592C00B2CF86 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E57D2DCA592C00B2CF86 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FED7E5812DCA594300B2CF86 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5802DCA594300B2CF86 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FED7E5842DCA597E00B2CF86 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5832DCA597E00B2CF86 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		FED7E5872DCA599A00B2CF86 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E5862DCA599A00B2CF86 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		FED7E58B2DCA59CC00B2CF86 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FED7E58A2DCA59CC00B2CF86 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FED7E5072DCA50BA00B2CF86 /* Project object */;
 }
