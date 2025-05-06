@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FED7E5262DCA50BB00B2CF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED7E5072DCA50BA00B2CF86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED7E50E2DCA50BA00B2CF86;
+			remoteInfo = DependabotTest;
+		};
+		FED7E5302DCA50BB00B2CF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED7E5072DCA50BA00B2CF86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED7E50E2DCA50BA00B2CF86;
+			remoteInfo = DependabotTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FED7E50F2DCA50BA00B2CF86 /* DependabotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DependabotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED7E5252DCA50BB00B2CF86 /* DependabotTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependabotTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED7E52F2DCA50BB00B2CF86 /* DependabotTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DependabotTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FED7E5372DCA50BB00B2CF86 /* Exceptions for "DependabotTest" folder in "DependabotTest" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FED7E50E2DCA50BA00B2CF86 /* DependabotTest */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FED7E5112DCA50BA00B2CF86 /* DependabotTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FED7E5372DCA50BB00B2CF86 /* Exceptions for "DependabotTest" folder in "DependabotTest" target */,
+			);
+			path = DependabotTest;
+			sourceTree = "<group>";
+		};
+		FED7E5282DCA50BB00B2CF86 /* DependabotTestTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DependabotTestTests;
+			sourceTree = "<group>";
+		};
+		FED7E5322DCA50BB00B2CF86 /* DependabotTestUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DependabotTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED7E50C2DCA50BA00B2CF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED7E5222DCA50BB00B2CF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED7E52C2DCA50BB00B2CF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED7E5062DCA50BA00B2CF86 = {
+			isa = PBXGroup;
+			children = (
+				FED7E5112DCA50BA00B2CF86 /* DependabotTest */,
+				FED7E5282DCA50BB00B2CF86 /* DependabotTestTests */,
+				FED7E5322DCA50BB00B2CF86 /* DependabotTestUITests */,
+				FED7E5102DCA50BA00B2CF86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED7E5102DCA50BA00B2CF86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED7E50F2DCA50BA00B2CF86 /* DependabotTest.app */,
+				FED7E5252DCA50BB00B2CF86 /* DependabotTestTests.xctest */,
+				FED7E52F2DCA50BB00B2CF86 /* DependabotTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED7E50E2DCA50BA00B2CF86 /* DependabotTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED7E5382DCA50BB00B2CF86 /* Build configuration list for PBXNativeTarget "DependabotTest" */;
+			buildPhases = (
+				FED7E50B2DCA50BA00B2CF86 /* Sources */,
+				FED7E50C2DCA50BA00B2CF86 /* Frameworks */,
+				FED7E50D2DCA50BA00B2CF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FED7E5112DCA50BA00B2CF86 /* DependabotTest */,
+			);
+			name = DependabotTest;
+			packageProductDependencies = (
+			);
+			productName = DependabotTest;
+			productReference = FED7E50F2DCA50BA00B2CF86 /* DependabotTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FED7E5242DCA50BB00B2CF86 /* DependabotTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED7E53D2DCA50BB00B2CF86 /* Build configuration list for PBXNativeTarget "DependabotTestTests" */;
+			buildPhases = (
+				FED7E5212DCA50BB00B2CF86 /* Sources */,
+				FED7E5222DCA50BB00B2CF86 /* Frameworks */,
+				FED7E5232DCA50BB00B2CF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED7E5272DCA50BB00B2CF86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FED7E5282DCA50BB00B2CF86 /* DependabotTestTests */,
+			);
+			name = DependabotTestTests;
+			packageProductDependencies = (
+			);
+			productName = DependabotTestTests;
+			productReference = FED7E5252DCA50BB00B2CF86 /* DependabotTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FED7E52E2DCA50BB00B2CF86 /* DependabotTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED7E5402DCA50BB00B2CF86 /* Build configuration list for PBXNativeTarget "DependabotTestUITests" */;
+			buildPhases = (
+				FED7E52B2DCA50BB00B2CF86 /* Sources */,
+				FED7E52C2DCA50BB00B2CF86 /* Frameworks */,
+				FED7E52D2DCA50BB00B2CF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED7E5312DCA50BB00B2CF86 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FED7E5322DCA50BB00B2CF86 /* DependabotTestUITests */,
+			);
+			name = DependabotTestUITests;
+			packageProductDependencies = (
+			);
+			productName = DependabotTestUITests;
+			productReference = FED7E52F2DCA50BB00B2CF86 /* DependabotTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED7E5072DCA50BA00B2CF86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					FED7E50E2DCA50BA00B2CF86 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					FED7E5242DCA50BB00B2CF86 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FED7E50E2DCA50BA00B2CF86;
+					};
+					FED7E52E2DCA50BB00B2CF86 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = FED7E50E2DCA50BA00B2CF86;
+					};
+				};
+			};
+			buildConfigurationList = FED7E50A2DCA50BA00B2CF86 /* Build configuration list for PBXProject "DependabotTest" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED7E5062DCA50BA00B2CF86;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FED7E5102DCA50BA00B2CF86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED7E50E2DCA50BA00B2CF86 /* DependabotTest */,
+				FED7E5242DCA50BB00B2CF86 /* DependabotTestTests */,
+				FED7E52E2DCA50BB00B2CF86 /* DependabotTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED7E50D2DCA50BA00B2CF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED7E5232DCA50BB00B2CF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED7E52D2DCA50BB00B2CF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED7E50B2DCA50BA00B2CF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED7E5212DCA50BB00B2CF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED7E52B2DCA50BB00B2CF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED7E5272DCA50BB00B2CF86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED7E50E2DCA50BA00B2CF86 /* DependabotTest */;
+			targetProxy = FED7E5262DCA50BB00B2CF86 /* PBXContainerItemProxy */;
+		};
+		FED7E5312DCA50BB00B2CF86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED7E50E2DCA50BA00B2CF86 /* DependabotTest */;
+			targetProxy = FED7E5302DCA50BB00B2CF86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FED7E5392DCA50BB00B2CF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7423W9V4WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DependabotTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sporty.DependabotTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FED7E53A2DCA50BB00B2CF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7423W9V4WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DependabotTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sporty.DependabotTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FED7E53B2DCA50BB00B2CF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FED7E53C2DCA50BB00B2CF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED7E53E2DCA50BB00B2CF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7423W9V4WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sporty.DependabotTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependabotTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DependabotTest";
+			};
+			name = Debug;
+		};
+		FED7E53F2DCA50BB00B2CF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7423W9V4WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sporty.DependabotTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DependabotTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DependabotTest";
+			};
+			name = Release;
+		};
+		FED7E5412DCA50BB00B2CF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7423W9V4WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sporty.DependabotTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DependabotTest;
+			};
+			name = Debug;
+		};
+		FED7E5422DCA50BB00B2CF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7423W9V4WF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sporty.DependabotTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DependabotTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED7E50A2DCA50BA00B2CF86 /* Build configuration list for PBXProject "DependabotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED7E53B2DCA50BB00B2CF86 /* Debug */,
+				FED7E53C2DCA50BB00B2CF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED7E5382DCA50BB00B2CF86 /* Build configuration list for PBXNativeTarget "DependabotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED7E5392DCA50BB00B2CF86 /* Debug */,
+				FED7E53A2DCA50BB00B2CF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED7E53D2DCA50BB00B2CF86 /* Build configuration list for PBXNativeTarget "DependabotTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED7E53E2DCA50BB00B2CF86 /* Debug */,
+				FED7E53F2DCA50BB00B2CF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED7E5402DCA50BB00B2CF86 /* Build configuration list for PBXNativeTarget "DependabotTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED7E5412DCA50BB00B2CF86 /* Debug */,
+				FED7E5422DCA50BB00B2CF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED7E5072DCA50BA00B2CF86 /* Project object */;
+}
