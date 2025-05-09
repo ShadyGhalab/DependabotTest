@@ -1,4 +1,3 @@
-# Dependabot configuration for GitHub Actions and Bundler
 version: 2
 updates:
   - package-ecosystem: "github-actions"
@@ -12,6 +11,8 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     open-pull-requests-limit: 5
+    assignees:
+      - "shadyghalab"
 
   - package-ecosystem: "bundler"
     directory: "/"
@@ -23,3 +24,5 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     open-pull-requests-limit: 5
+    assignees:
+      - "shadyghalab"
