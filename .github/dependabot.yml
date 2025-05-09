@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      time: "17:05"  # This is 9:00 AM Turkey Time (UTC+3)
+      time: "17:25"  # This is 9:00 AM Turkey Time (UTC+3)
       timezone: "Europe/Istanbul"  # Explicitly setting Turkey timezone
     labels:
       - "dependencies"
@@ -20,7 +20,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      time: "17:05"  # This is 9:00 AM Turkey Time (UTC+3)
+      time: "17:25"  # This is 9:00 AM Turkey Time (UTC+3)
       timezone: "Europe/Istanbul"  # Explicitly setting Turkey timezone
     labels:
       - "dependencies"
