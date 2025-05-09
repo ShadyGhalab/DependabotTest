@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 gem "fastlane"
 
-# Use relative path directly, which works for both Dependabot and local environment
-plugins_path = File.join(__dir__, 'fastlane', 'Pluginfile')
-eval_gemfile(plugins_path) if File.exist?(plugins_path)
+# Skip Pluginfile loading if running in Dependabot
+unless ENV['GITHUB_ACTIONS'] && ENV['DEPENDABOT']
+  plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
+  eval_gemfile(plugins_path) if File.exist?(plugins_path)
+end
