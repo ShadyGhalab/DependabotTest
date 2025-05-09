@@ -10,7 +10,7 @@ permissions:
 jobs:
   dependabot-labeler:
     runs-on: [self-hosted, iOS]
-    if: github.event.pull_request.user.login == 'dependabot[bot]' && startsWith(github.repository, 'opennetltd')
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && startsWith(github.repository, 'DependabotTest')
     strategy:
       matrix:
         dependency-type: 
