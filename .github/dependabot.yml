@@ -1,38 +1,25 @@
+# Dependabot configuration for GitHub Actions and Bundler
 version: 2
 updates:
-  # Daily updates (non-security)
-  - package-ecosystem: "swift"
-    directory: "/DependabotTest"
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
-      interval: "daily"
-      time: "19:13"
-      timezone: "Europe/Berlin"
-    allow:
-      - dependency-type: "all"
-    ignore:
-      - dependency-name: "firebase-ios-sdk"
-      - dependency-name: "facebook-ios-sdk"
-      - dependency-name: "fullstory-swift-package-ios"
-      - dependency-name: "Instabug-SP"
-    groups:
-      ios-dependencies:
-        patterns: ["*"]
-        exclude-patterns:
-          - "firebase-*"
-          - "facebook-*"
-          - "fullstory-*"
-          - "Instabug-SP"
-        applies-to: "version-updates"
-    open-pull-requests-limit: 200
-    rebase-strategy: "auto"
-    insecure-external-code-execution: "deny"
-    labels: ["dependencies", "swift"]
-    assignees: ["@shadyghalab"]
-    reviewers: ["@mobile-team"]
-    milestone: 1
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "automated-pr"
     commit-message:
-      prefix: "chore"
-      include: "scope"
-    pull-request-branch-name:
-      separator: "-"
-    target-branch: "develop"
+      prefix: "chore(deps)"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "ruby"
+    commit-message:
+      prefix: "chore(deps)"
+    open-pull-requests-limit: 5
