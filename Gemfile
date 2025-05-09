@@ -2,6 +2,5 @@ source "https://rubygems.org"
 
 gem "fastlane"
 
-# Load Pluginfile only if it exists (Dependabot-safe)
-pluginfile_path = 'fastlane/Pluginfile'
-eval_gemfile pluginfile_path if File.exist?(pluginfile_path)
+# Direct static path that respects the directory structure (Dependabot-safe)
+eval_gemfile File.expand_path('fastlane/Pluginfile', __dir__) if File.exist?(File.expand_path('fastlane/Pluginfile', __dir__))
