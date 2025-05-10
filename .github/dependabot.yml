@@ -1,32 +1,27 @@
 version: 2
 updates:
+  # GitHub Actions Dependencies
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directory: "/" # Root directory for GitHub Actions
     schedule:
-      interval: "weekly"
-      time: "00:59"  # This is 9:00 AM Turkey Time (UTC+3)
-      timezone: "Europe/Istanbul"  # Explicitly setting Turkey timezone
+      interval: "daily"
+      time: "14:55" # 09:00 Istanbul time (UTC+3)
     labels:
-      - "dependencies"
+      - "dependency-update"
       - "github-actions"
-      - "automated-pr"
     commit-message:
-      prefix: "chore(deps)"
+      prefix: "chore(deps):"
     open-pull-requests-limit: 5
-    assignees:
-      - "dependabot"
 
+  # Bundler (Ruby Gems) Dependencies
   - package-ecosystem: "bundler"
-    directory: "/"
+    directory: "/" # Root directory for Gemfile
     schedule:
-      interval: "weekly"
-      time: "00:59"  # This is 9:00 AM Turkey Time (UTC+3)
-      timezone: "Europe/Istanbul"  # Explicitly setting Turkey timezone
+      interval: "daily"
+      time: "14:55" # 09:00 Istanbul time (UTC+3)
     labels:
-      - "dependencies"
-      - "ruby"
+      - "dependency-update"
+      - "ruby-gems"
     commit-message:
-      prefix: "chore(deps)"
+      prefix: "chore(deps):"
     open-pull-requests-limit: 5
-    assignees:
-      - "dependabot"
