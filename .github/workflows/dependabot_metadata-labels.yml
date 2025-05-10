@@ -1,5 +1,4 @@
 name: Auto-label Dependabot PRs with metadata-based labels
-description: Automatically adds labels to Dependabot PRs based on metadata information, such as production dependencies, security updates, and more.
 
 on:
   pull_request:
@@ -10,70 +9,45 @@ permissions:
   issues: write
 
 jobs:
-  dependabot-labeler:
+  label-dependabot:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dependency-type: 
-          - 'direct:production'
-          - 'direct:development'
-          - 'direct:security'
-          - 'direct:patch'
-          - 'direct:major'
-          - 'direct:minor'
-          - 'direct:experimental'
-          - 'direct:deprecated'
-          - 'direct:external'
-          - 'direct:internal'
-          - 'direct:automated'
-          - 'direct:doc'
-          - 'direct:performance'
-          - 'direct:staging'
-          - 'direct:ci'
-        include:
-          - dependency-type: 'direct:production'
-            label: 'dependencies:production'
-          - dependency-type: 'direct:development'
-            label: 'dependencies:development'
-          - dependency-type: 'direct:security'
-            label: 'dependencies:security'
-          - dependency-type: 'direct:patch'
-            label: 'dependencies:patch'
-          - dependency-type: 'direct:major'
-            label: 'dependencies:major'
-          - dependency-type: 'direct:minor'
-            label: 'dependencies:minor'
-          - dependency-type: 'direct:experimental'
-            label: 'dependencies:experimental'
-          - dependency-type: 'direct:deprecated'
-            label: 'dependencies:deprecated'
-          - dependency-type: 'direct:external'
-            label: 'dependencies:external'
-          - dependency-type: 'direct:internal'
-            label: 'dependencies:internal'
-          - dependency-type: 'direct:automated'
-            label: 'dependencies:automated'
-          - dependency-type: 'direct:doc'
-            label: 'dependencies:doc'
-          - dependency-type: 'direct:performance'
-            label: 'dependencies:performance'
-          - dependency-type: 'direct:staging'
-            label: 'dependencies:staging'
-          - dependency-type: 'direct:ci'
-            label: 'dependencies:ci'
 
     steps:
-      - name: Fetch metadata for Dependabot PR
+      - name: Fetch metadata
         id: metadata
         uses: dependabot/fetch-metadata@d7267f607e9d3fb96fc2fbe83e0af444713e90b7
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Auto-label PR based on dependency type
+      - name: Add label based on dependency type
         run: |
-          echo "Found dependency type: ${{ steps.metadata.outputs.dependency-type }}"
-          if [[ "${{ steps.metadata.outputs.dependency-type }}" == "${{ matrix.dependency-type }}" ]]; then
-            gh pr edit "$PR_URL" --add-label "${{ matrix.label }}"
+          TYPE="${{ steps.metadata.outputs.dependency-type }}"
+          echo "Dependency type is: $TYPE"
+
+          declare -A label_map=(
+            ["direct:production"]="dependencies:production"
+            ["direct:development"]="dependencies:development"
+            ["direct:security"]="dependencies:security"
+            ["direct:patch"]="dependencies:patch"
+            ["direct:major"]="dependencies:major"
+            ["direct:minor"]="dependencies:minor"
+            ["direct:experimental"]="dependencies:experimental"
+            ["direct:deprecated"]="dependencies:deprecated"
+            ["direct:external"]="dependencies:external"
+            ["direct:internal"]="dependencies:internal"
+            ["direct:automated"]="dependencies:automated"
+            ["direct:doc"]="dependencies:doc"
+            ["direct:performance"]="dependencies:performance"
+            ["direct:staging"]="dependencies:staging"
+            ["direct:ci"]="dependencies:ci"
+          )
+
+          LABEL="${label_map[$TYPE]}"
+          if [ -n "$LABEL" ]; then
+            echo "Applying label: $LABEL"
+            gh pr edit "$PR_URL" --add-label "$LABEL"
+          else
+            echo "No label mapped for: $TYPE"
           fi
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
